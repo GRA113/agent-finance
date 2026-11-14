@@ -1,0 +1,47 @@
+# ============================================
+# DADOS SENSÍVEIS — nunca versionar
+# ============================================
+.env
+.env.*
+*.env
+secrets/
+.secrets/
+credentials*
+*credential*
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa*
+id_ed25519*
+known_hosts
+tokens.json
+*.token
+*.session
+*.cookie
+
+# Chaves de API / tokens (qualquer formato)
+*api_key*
+*apikey*
+*.apikey
+backup*.zip
+*.keystore
+
+# ============================================
+# Dados pessoais / bases locais
+# ============================================
+*.cpf
+*.rg
+dados-pessoais/
+base-clientes/
+
+# ============================================
+# Sistema e editores
+# ============================================
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log
+.vscode/
+.idea/
+*.swp
